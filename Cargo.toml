@@ -17,10 +17,10 @@ web3 = []
 arrayref = "0.3"
 ethereum-types = { version = "0.14", default-features = false }
 ethnum = { version = "1", default-features = false }
-prost = "0.11"
-tonic = "0.8"
+prost = "0.12.3"
+tonic = "0.10.2"
 
 [build-dependencies]
 protobuf-src = "1.1.0"
-prost-build = "0.11"
-tonic-build = "0.8"
+prost-build = "0.12.3"
+tonic-build = "0.10.2"
